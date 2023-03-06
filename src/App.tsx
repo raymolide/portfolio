@@ -1,24 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import Nav from './nav/Nav';
+import Menu from './menu/Menu';
+import Home from './home/Home';
+import About from './about/About';
+import Education from './education/Education';
+import Portfolio from './portfolio/Portfolio';
+import Contact from './contact/Contact';
+import rocket from './assets/rocket.png'
 
 function App() {
+
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {     
+    console.log(window.scrollY)
+    setScroll(window.scrollY)
+  }, [scroll])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+
+      <Nav />
+      <Menu />
+      <section className='home' id='home'>
+        <Home />
+      </section>
+
+      <section className='about' id='about'>
+        <About />
+      </section>
+
+      <section className='education' id='education'>
+        <Education />
+      </section>
+
+      <section className='portfolio' id='portfolio'>
+        <Portfolio />
+      </section>
+
+      <section className='contact' id='contact'>
+        <Contact />
+      </section>
+
+      <div className="top">
+        <a href="#home">
+          <img src={rocket} alt="topRocket" />
         </a>
-      </header>
+      </div>
+
+
+
+
     </div>
   );
 }

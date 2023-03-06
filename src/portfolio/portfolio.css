@@ -1,0 +1,36 @@
+.portfolio .box-container{
+    display: flex;  
+    flex-wrap: wrap;
+    padding: 2rem 0; 
+    justify-content: center;
+ }
+
+ .portfolio .box-container .box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32rem;
+    width: 15rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 2rem;
+ }
+
+ .portfolio .box-container .box img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.portfolio .box-container .box img:hover{
+    transform: scale(1.2);
+}
+
+
+h3{
+    font-size: 4rem;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+   }

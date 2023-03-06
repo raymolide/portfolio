@@ -1,0 +1,77 @@
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+
+}
+
+.about .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+ font-size: 2rem;
+ color: var(--yellow);
+ padding: 1rem 0;
+ font-weight: normal;
+}
+
+.about .row .info h3 span{
+  color: #eee;
+  padding: 0 5rem;
+   }
+   
+
+.about .row .counter{
+    display: flex;
+    flex-direction: column;
+    flex: 30rem;
+    padding: 2rem 1rem; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width: 12rem;
+    background: #222;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.about .row .counter .box span{
+    font-size: 3rem;
+     color: var(--yellow);
+}
+
+.about .row .counter .box h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.inlinecontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.inlinecontent div ul{
+    list-style: disc; 
+    color: var(--yellow);
+} 
+
+
+ 
+
+@media (max-width: 400px) {
+    header{
+     width: 100vw; 
+    }
+    .about .row .counter .box{
+        width: 100%;
+    }
+}
