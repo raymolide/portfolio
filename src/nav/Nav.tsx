@@ -1,6 +1,6 @@
 import React from 'react'
-import imagem from '../assets/me.png';
 import './nav.css'
+import imagem from '../assets/me.png';
 function Nav() {
   return (
     <header>
