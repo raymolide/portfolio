@@ -8,6 +8,7 @@ import Education from './education/Education';
 import Portfolio from './portfolio/Portfolio';
 import Contact from './contact/Contact';
 import rocket from './assets/rocket.png'
+import Certification from './certification/Certification';
 
 function App() {
 
@@ -34,6 +35,10 @@ function App() {
       <section className='education' id='education'>
         <Education />
       </section>
+      
+      <section className='certification' id='certification'>
+        <Certification />
+      </section>
 
       <section className='portfolio' id='portfolio'>
         <Portfolio />
@@ -42,6 +47,7 @@ function App() {
       <section className='contact' id='contact'>
         <Contact />
       </section>
+
 
       <div className="top">
         <a href="#home">

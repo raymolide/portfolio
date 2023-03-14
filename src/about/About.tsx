@@ -72,7 +72,7 @@ function About() {
 
                 <div className="counter" style={{ width: 'fit-content' }}>
                     <div className="box">
-                        <span>+8</span>
+                        <span>8+</span>
                         <h3>years of experience</h3>
                     </div>
                     <div className="box">

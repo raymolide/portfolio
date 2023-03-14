@@ -1,0 +1,58 @@
+.certification .box-container{
+    display: block;
+    padding: 2rem 0;
+    padding-left: 3rem;
+}
+
+.certification .box-container .box{
+   
+    margin: 4rem 2rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.certification .box-container .box span{
+    font-size: 1.6rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 1rem 2.5rem;
+}
+
+.certification .box-container .box h3{
+    font-size: 2.5rem;
+    color: #fff;
+    padding-top: 1.5rem; 
+}
+
+.certification .box-container .box p{
+    font-size: 1.6rem;
+    color: #eee;
+    padding-top: 1rem 0; 
+}
+
+.certification .box-container .box i{
+position: absolute;
+top:-1.5rem; left:-2.5rem;
+height: 5rem;
+width: 5rem;
+line-height: 5rem;
+border-radius: 50%;
+text-align: center;
+font-size: 2rem;
+color: #fff;
+background: var(--yellow);
+}
+
+.certification .box-container .box{
+    width: 100%;
+}
+
+.certification .box-container .box a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--yellow);
+    padding: 3rem;
+
+}

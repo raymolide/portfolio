@@ -15,6 +15,7 @@ function Nav() {
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#education">education</a></li>
+                <li><a href="#certification">certification</a></li>
                 <li><a href="#portfolio">portfolio</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
